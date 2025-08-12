@@ -1,5 +1,12 @@
 class Calculator:
 
+    def show_welcome_message(self):
+        print("Calculator App")
+
+    def show_menu(self):
+        print("Enter Operation (+, -, *, /, %, )")
+
+
     def add(self):
         pass
 
@@ -22,7 +29,7 @@ class Calculator:
         pass
 
     def run(self):
-        print("Calculator Launched!")
+        
 
 if __name__ == "__main__":
     calc = Calculator()
